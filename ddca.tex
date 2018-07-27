@@ -13,9 +13,9 @@
 \begin{block}{How it works}
 User-specified inputs: 
 \begin{enumerate}
-	\item A commodity that the user wants to demand
-	\item Growth rate of that specific commodity 
-	\item The facilities in the simulation and their corresponding parameters
+	\item A commodity whose demand drives deployment
+	\item Growth rate of that demand
+	\item The facilities in the simulation able to meet that demand
 \end{enumerate}
 Using the user-specified inputs, the archetype will deploy facilities and supporting facilities to meet the demand for the specified commodity and the supporting commodities required to produce it. 
 \end{block}
@@ -38,13 +38,16 @@ Using the user-specified inputs, the archetype will deploy facilities and suppor
 
 \begin{block}{Current work being done by UIUC}
 	\begin{enumerate}
-		\item Numerical experiments to test the non-optimizing and deterministic optimizing prediction algorithms. 
-		\item A Report is written for each type of prediction algorithm. The report for the non-optimizing case can be found at \cite{bae_numerical_2018}. 
+		\item Numerical experiments to test d3ploy
+		\item The tests are described in reports written for each type of prediction algorithm. 
+                \item The report for the non-optimizing case can be found at \cite{bae_numerical_2018}. 
 	\end{enumerate}
 \end{block}
 
 \begin{block}{Where is d3ploy?}
-	d3ploy can be found in this github repository: \href{https://github.com/ergs/d3ploy}{ergs/d3ploy} 
+	d3ploy can be found in this github repository: \url{https://github.com/ergs/d3ploy}
+	The tests are being developed there as well, though the reports are in  
+        \url{https://github.com/arfc/ddca_numerical_exp}
 \end{block}
 
 \end{frame}
